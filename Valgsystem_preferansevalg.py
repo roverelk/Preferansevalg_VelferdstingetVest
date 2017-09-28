@@ -33,9 +33,11 @@ input_file = 'Stemmesedler.xlsx'
 kandidater, stemmesedler = importer_stemmesedler(input_file)
 
 # SETT SPERREGRENSE
+sperregrense = finn_sperregrense(kandidater, stemmesedler)
+
+# PRINT STATUS TIL TXT
 print_status(output_status, ('Antall kandidater: ' + str(len(kandidater))))
 print_status(output_status, ('\nAntall stemmer: ' + str(len(stemmesedler))))
-sperregrense = finn_sperregrense(kandidater, stemmesedler)
 print_status(output_status, ('\nSperregrense: ' + str(sperregrense)))
 
 score = forste_opptelling(stemmesedler, kandidater, output_status)
