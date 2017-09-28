@@ -10,7 +10,7 @@
 
 # LES INN STEMMER
 from openpyxl import Workbook, load_workbook
-from Preferansevalg_imports_v3 import importer_stemmesedler, finn_sperregrense, noen_har_vunnet, forste_opptelling, \
+from Preferansevalg_imports import importer_stemmesedler, finn_sperregrense, noen_har_vunnet, forste_opptelling, \
     kontroll_antall_kandidater_igjen, ny_fordeling_etter_vunnet, ny_fordeling_etter_tap, print_status
 
 # EKSPORTER RESULTATER
@@ -33,13 +33,10 @@ input_file = 'Stemmesedler.xlsx'
 kandidater, stemmesedler = importer_stemmesedler(input_file)
 
 # SETT SPERREGRENSE
-tekst = 'Antall kandidater: ' + str(len(kandidater))
-print_status(output_status, tekst)
-tekst = '\nAntall stemmer: ' + str(len(stemmesedler))
-print_status(output_status, tekst)
+print_status(output_status, ('Antall kandidater: ' + str(len(kandidater))))
+print_status(output_status, ('\nAntall stemmer: ' + str(len(stemmesedler))))
 sperregrense = finn_sperregrense(kandidater, stemmesedler)
-tekst = '\nSperregrense: ' + str(sperregrense)
-print_status(output_status, tekst)
+print_status(output_status, ('\nSperregrense: ' + str(sperregrense)))
 
 score = forste_opptelling(stemmesedler, kandidater, output_status)
 
@@ -48,12 +45,10 @@ tapende_plass = len(kandidater)
 # SE OM NOEN HAR VUNNET
 flere_kandidater = True
 while(flere_kandidater):
-    tekst = '\n\nRunde nummer ' + str(R - 1)
-    print_status(output_status, tekst)
+    print_status(output_status, ('\n\nRunde nummer ' + str(R - 1)))
 
     if noen_har_vunnet(stemmesedler, sperregrense, score):
-        tekst = '\nKandidat har VUNNET'
-        print_status(output_status, tekst)
+        print_status(output_status, '\nKandidat har VUNNET')
 
         score, stemmesedler, choose_cand = ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater,
                                                                      output_status)
@@ -66,8 +61,7 @@ while(flere_kandidater):
         wb.save(output_file)
     else:
         # FINN PERSON MED LAVEST SCORE
-        tekst = '\nKandidat har TAPT'
-        print_status(output_status, tekst)
+        print_status(output_status, '\nKandidat har TAPT')
 
         score, stemmesedler, choose_cand = ny_fordeling_etter_tap(score, stemmesedler, sperregrense, kandidater,
                                                                   output_status)
