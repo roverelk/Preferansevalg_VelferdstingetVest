@@ -1,0 +1,5 @@
+Selv om 2 kandidater (A og B) oppnår valgtallet(sperregrense) i første runde velges kun kandidat A
+Dette gør at kandidat C vinner i runde to pga stemmeoverføring, selv om kandidat B har flere førstestemmer.
+
+Her er jeg litt usikker på valgreglementet til VT, men sjekk etter denne problemstillingen,
+jeg mener at flere kan bli valgt i en runde.
