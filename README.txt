@@ -15,7 +15,8 @@ HVORDAN BRUKE:
 3)	Programmet skal naa opprette "Resultat.xlsx" og "Status.txt"
 
 	"Resultat.xlsx" inneholder alle kandidater med plassering. Du maa mest sannsynlig aapne
-	dokumentet og rearrangerer rekkefoelgen. Programmet skirver bare ut kandidatene etterhvert 	som de vinner eller taper i valgsystemet.
+	dokumentet og rearrangerer rekkefoelgen. Programmet skirver bare ut kandidatene etterhvert 	som de vinner eller
+	taper i valgsystemet.
 	
 	"Status.txt" skriver ut hele prosessen, s�aa om det skulle vaere usikkerhet om hva som har
 	skjedd er det mulighet til aa gaa over her og kontrollere.
@@ -56,8 +57,11 @@ HVORDAN PROGRAMMET VIRKER
 		8ab) Bare en kandidat har vunnet.
 		     Kandidat som har vunnet blir annonsert.*
 
-	    En finner alle stemmesedeler som har kandidaten som sin vinner. Teller opp hvor de fordeler sin neste stemme, og fordeler dem etter:
-		([Antall stemmer kandidaten fikk]-[Sperregrensen])*[Neste prioritert på stemmeseddel] = [Fordeles ut til de andre kandidatene]
+	    En finner alle stemmesedeler som har kandidaten som sin vinner. Teller opp hvor de fordeler sin neste stemme,
+	    og fordeler dem etter:
+
+		([Antall stemmer kandidaten fikk]-[Sperregrensen])*[Neste prioritert på stemmeseddel]
+		= [Fordeles ut til de andre kandidatene]
 
 	    Det fordeles bare stemmer til kandidater som er igjen, og som ikke har hverken vunnet eller tapt.
 
