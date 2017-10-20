@@ -3,6 +3,7 @@
 from openpyxl import load_workbook
 from random import randint
 
+from Preferansevalg_2vinnere import flere_vinnere
 
 def print_status(file, tekst):
     with open(file, "a") as my_file:
@@ -114,16 +115,17 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
                 high_score_ = score_[i]
         return high_score_
 
-    def kandidat_med_flest_stemmer(kandidater_, high_score_):
+    def kandidat_med_flest_stemmer(kandidater_, high_score_, score_, stemmesedler_):
         cand_over = []
 
+        # Velg flere kandidater om de alle har like mange og flest poeng
         for i_ in range(len(kandidater_)):
             if score[i_] == high_score_:
                 cand_over.append(i_)
 
         # Hvis flere enn 1 velg en random
         if len(cand_over) > 1:
-            choose_cand_ = cand_over[randint(0, len(cand_over) - 1)]
+            choose_cand_ = flere_vinnere(cand_over, score_, stemmesedler_, kandidater_)
             print(choose_cand_)
         else:
             choose_cand_ = cand_over[0]
@@ -213,7 +215,7 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
     high_score = hoyest_antall_stemmer(kandidater, score, high_score)
 
     # Finn hvem som har høyest antal stemmer
-    choose_cand = kandidat_med_flest_stemmer(kandidater, high_score)
+    choose_cand = kandidat_med_flest_stemmer(kandidater, high_score, score, stemmesedler)
 
     # Fordel overflødige stemmer fra kandidaten som har vunnet
     score = ny_fordeling(score, choose_cand, sperregrense, kandidater, stemmesedler)

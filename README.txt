@@ -15,8 +15,8 @@ HVORDAN BRUKE:
 3)	Programmet skal naa opprette "Resultat.xlsx" og "Status.txt"
 
 	"Resultat.xlsx" inneholder alle kandidater med plassering. Du maa mest sannsynlig aapne
-	dokumentet og rearrangerer rekkefoelgen. Programmet skirver bare ut kandidatene etterhvert 	som de vinner eller
-	taper i valgsystemet.
+
+	dokumentet og rearrangerer rekkefoelgen. Programmet skirver bare ut kandidatene etterhvert 	som de vinner eller taper i valgsystemet.
 	
 	"Status.txt" skriver ut hele prosessen, s�aa om det skulle vaere usikkerhet om hva som har
 	skjedd er det mulighet til aa gaa over her og kontrollere.
