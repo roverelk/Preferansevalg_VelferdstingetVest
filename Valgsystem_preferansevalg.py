@@ -1,4 +1,5 @@
-    # Valgsystsem for VT
+# -*- coding: utf-8 -*-
+# Valgsystsem for VT
 # Preferansevalg fr n antall deltakere og for m antall stemmer.
 
 # Det kommer inn stemmer i form av et excel-ark.
