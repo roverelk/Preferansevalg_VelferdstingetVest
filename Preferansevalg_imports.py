@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Alle delprogrammer som skal brukes av hovedprogrammet
 
 from openpyxl import load_workbook

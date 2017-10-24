@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Når en får to eller flere som vinner.
 # Se på andrestemmen de gitte kandidatene for å velge en som vinner.
 # Om to eller flere har like mange andrestemmer, gå videre og tell tredjestemmene.
