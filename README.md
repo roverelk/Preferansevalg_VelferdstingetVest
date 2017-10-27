@@ -21,7 +21,7 @@ Om du allerede har `Python 3.6` og `openpyxl` installert kan du kjøre en test f
 3. Det skal nå opprettes to nye filer: Resultat.xslx og Status.txt
 4. Gratulerer alt virker!
 
-## Last ned fra andre steder
+## Instalasjonsguide for Windows
 Du trenger Python for å kunne kjøre programfilene.
 ### Python 3.6
 Last ned: [Python 3.6.3](https://www.python.org/ftp/python/3.6.3/python-3.6.3.exe "This is a direct donwload link :-)")
