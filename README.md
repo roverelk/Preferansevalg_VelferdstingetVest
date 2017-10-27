@@ -1,10 +1,23 @@
 # Preferansevalg for Velferdstinget Vest
 
+## Hvordan bruke
+Dette programmet tar stemmesedler lagt inn i et excel-ark og returnerer en liste over hvem som komi hvilke plasering.
+
 ## Last ned herfra
 Last ned:
-+ Valgsystem.py
-+ Valgsystem_vedlegg.py
-+ Stemmeseddel.xslx
+1. Klikk "Clone or Download"
+2. Pakk ut zip
+3. Velg den mappen du trenger: "Run on Windows" eller "Run on MAC". Resten trenger du ikke.
+4. Inne i den mappen liger alt du trenger, sammen med et eksempel
+
+## Kjør test
+Om du allerede har `Python 3.6` og `openpyxl` installert kan du kjøre en test for å se om alt virker. Hvis ikke gå ned til [Last ned fra andre steder](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#last-ned-fra-andre-steder).
+
+### Hvordan kjøre test
+1. Pass på at Preferansevalg.py, Preferanseval_vedlegg.py og Stemmesedler.xslx ligger i samme mappe.
+2. Dobbelklikk på Preferansevalg.py for å starte det.
+3. Det skal nå opprettes to nye filer: Resultat.xslx og Status.txt
+4. Gratulerer alt virker!
 
 ## Last ned fra andre steder
 Du trenger Python for å kunne kjøre programfilene.
