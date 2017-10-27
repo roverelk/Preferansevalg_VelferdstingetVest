@@ -7,13 +7,13 @@ Det er dynamisk som betyr at du kan forandre antall kandidater og antall stemmer
 
 ## Last ned herfra
 Last ned:
-1. Klikk "Clone or Download"
-2. Pakk ut zip
+1. Klikk "Clone or Download".
+2. Pakk ut zip.
 3. Velg den mappen du trenger: "Run on Windows" eller "Run on MAC". Resten trenger du ikke.
-4. Inne i den mappen liger alt du trenger, sammen med et eksempel
+4. Inne i den mappen ligger alt du trenger, sammen med et eksempel.
 
 ## Kjør test
-Om du allerede har `Python 3.6` og `openpyxl` installert kan du kjøre en test for å se om alt virker. Hvis ikke gå ned til [Last ned fra andre steder](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#last-ned-fra-andre-steder).
+Om du allerede har `Python 3.6` og `openpyxl` installert kan du kjøre en test for å se om alt virker. Hvis ikke gå ned til [Installasjonsguide for Windows](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#Installasjonsguide-for-Windows).
 
 ### Hvordan kjøre test
 1. Pass på at Preferansevalg.py, Preferanseval_vedlegg.py og Stemmesedler.xslx ligger i samme mappe.
@@ -21,7 +21,7 @@ Om du allerede har `Python 3.6` og `openpyxl` installert kan du kjøre en test f
 3. Det skal nå opprettes to nye filer: Resultat.xslx og Status.txt
 4. Gratulerer alt virker!
 
-## Instalasjonsguide for Windows
+## Installasjonsguide for Windows
 Du trenger Python for å kunne kjøre programfilene.
 ### Python 3.6
 Last ned: [Python 3.6.3](https://www.python.org/ftp/python/3.6.3/python-3.6.3.exe "This is a direct donwload link :-)")
