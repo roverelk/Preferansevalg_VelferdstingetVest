@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 # Alle delprogrammer som skal brukes av hovedprogrammet
 
-from openpyxl import load_workbook
 from random import randint
 
 from Preferansevalg_2vinnere import flere_vinnere
+from openpyxl import load_workbook
+
 
 def print_status(file, tekst):
     with open(file, "a") as my_file:
