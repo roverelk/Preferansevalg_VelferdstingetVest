@@ -2,9 +2,9 @@
 
 ## Last ned herfra
 Last ned:
-*. Valgsystem.py
-*. Valgsystem_vedlegg.py
-*. Stemmeseddel.xslx
++ Valgsystem.py
++ Valgsystem_vedlegg.py
++ Stemmeseddel.xslx
 
 ## Last ned fra andre steder
 Du trenger Python for å kunne kjøre programfilene.
