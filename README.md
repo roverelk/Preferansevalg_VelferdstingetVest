@@ -13,7 +13,7 @@ Last ned:
 4. Inne i den mappen ligger alt du trenger, sammen med et eksempel.
 
 ## Kjør test
-Om du allerede har `Python 3.6` og `openpyxl` installert kan du kjøre en test for å se om alt virker. Hvis ikke gå ned til [Installasjonsguide for Windows](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#Installasjonsguide-for-Windows).
+Om du allerede har `Python 3.6` og `openpyxl` installert kan du kjøre en test for å se om alt virker. Hvis ikke gå ned til [Installasjonsguide for Windows](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#installasjonsguide-for-windows).
 
 ### Hvordan kjøre test
 1. Pass på at Preferansevalg.py, Preferanseval_vedlegg.py og Stemmesedler.xslx ligger i samme mappe.
