@@ -4,12 +4,9 @@
 from random import randint
 
 from Preferansevalg_2vinnere import flere_vinnere
+from Print_status import print_status
 from openpyxl import load_workbook
 
-
-def print_status(file, tekst):
-    with open(file, "a") as my_file:
-        my_file.write(tekst)
 
 
 def importer_stemmesedler(input_file):
@@ -127,7 +124,7 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
 
         # Hvis flere enn 1 velg en random
         if len(cand_over) > 1:
-            choose_cand_ = flere_vinnere(cand_over, score_, stemmesedler_, kandidater_)
+            choose_cand_ = flere_vinnere(cand_over, score_, stemmesedler_, kandidater_, out_status)
             print(choose_cand_)
         else:
             choose_cand_ = cand_over[0]
@@ -206,8 +203,8 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
             if score_[i] > 0:
                 name_spacing = ' ' * (len(max(kandidater, key=len))-len(kandidater[i]))
 
-                tekst = '\n' + str(kandidater[i]) + name_spacing + '\t:\t' + str(round(score_gammel[i], 2)) + '\t+\t' \
-                    + str(round(fordel_fordeling[i], 2)) + '\t=\t' + str(round(score_[i], 2))
+                tekst = '\n' + str(kandidater[i]) + name_spacing + '\t:\t' + str(round(score_gammel[i], 1)) + '\t+\t' \
+                    + str(round(fordel_fordeling[i], 1)) + '\t=\t' + str(round(score_[i], 1))
                 print_status(out_status, tekst)
 
         return score_
@@ -247,7 +244,7 @@ def ny_fordeling_etter_tap(score, stemmesedler, sperregrense, kandidater, out_st
         else:
             choose_cand_ = cand_under[0]
 
-        tekst = '\n' + str(kandidater_[choose_cand_]) + ' har tapt med ' + str(round(low_score_, 2)) + ' stemmer.'
+        tekst = '\n' + str(kandidater_[choose_cand_]) + ' har tapt med ' + str(round(low_score_, 1)) + ' stemmer.'
         print_status(out_status, tekst)
         return choose_cand_
 

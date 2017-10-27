@@ -10,7 +10,7 @@
 # Endelig rangert resultat skrives til en egen .txt-fil.
 
 # LES INN STEMMER
-from Preferansevalg_imports import importer_stemmesedler, finn_sperregrense, noen_har_vunnet, forste_opptelling, \
+from Preferansevalg_vedlegg import importer_stemmesedler, finn_sperregrense, noen_har_vunnet, forste_opptelling, \
     kontroll_antall_kandidater_igjen, ny_fordeling_etter_vunnet, ny_fordeling_etter_tap, print_status
 from openpyxl import Workbook, load_workbook
 

@@ -10,10 +10,21 @@
 
 # Om to eller flere kandidater har like mange stemmer i alle ledd. Velges det med myntkast.
 
-def flere_vinnere(kandidat_over_sperregrense, score, stemmesedler, kandidater):
+from Print_status import print_status
+
+def flere_vinnere(kandidat_over_sperregrense, score, stemmesedler, kandidater, out_status):
     valgt_kandidat = 0
 
+    print_status(out_status, '\nMinst 2 kandidater har flest, og like mange stemmer:')
+
     print(kandidat_over_sperregrense)
+
+    for i in range(len(kandidat_over_sperregrense)):
+
+        print_status(out_status, '\n' + str(kandidater[kandidat_over_sperregrense[i]]) + '\t:\t' + str(score[kandidat_over_sperregrense[i]]))
+
+    print_status(out_status, '\n---'
+                             '\nNeste stemmefordeling:')
 
     secondary_score = []
     for i in range(len(kandidater)):
@@ -42,5 +53,10 @@ def flere_vinnere(kandidat_over_sperregrense, score, stemmesedler, kandidater):
     print("MAX")
     print(max(secondary_score))
 
+    for i in range(len(kandidat_over_sperregrense)):
+        print_status(out_status, '\n' + kandidater[kandidat_over_sperregrense[i]] + '\t:\t' + str(secondary_score[i]))
+    print_status(out_status, '\n---')
+
+    valgt_kandidat = secondary_score.index(max(secondary_score))
 
     return valgt_kandidat
