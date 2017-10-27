@@ -1,7 +1,9 @@
 # Preferansevalg for Velferdstinget Vest
 
 ## Hvordan bruke
-Dette programmet tar stemmesedler lagt inn i et excel-ark og returnerer en liste over hvem som komi hvilke plasering.
+Dette programmet tar stemmesedler lagt inn i et excel-ark og returnerer en liste over hvem som kom i hvilke plassering.
+
+Det er dynamisk som betyr at du kan forandre antall kandidater og antall stemmer og programmet vil fredmeles gjennomføre valget for deg.
 
 ## Last ned herfra
 Last ned:
