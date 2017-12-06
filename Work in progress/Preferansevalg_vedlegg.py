@@ -8,7 +8,6 @@ from Print_status import print_status
 from openpyxl import load_workbook
 
 
-
 def importer_stemmesedler(input_file):
     wb = load_workbook(input_file)
     ws = wb.active
@@ -65,7 +64,7 @@ def finn_sperregrense(antall_kandidater, antall_stemmesedler):
     return (len(antall_stemmesedler) / len(antall_kandidater)) + 0.01
 
 
-def forste_opptelling(stemmesedler, kandidater, out_status):
+def forste_opptelling(stemmesedler, kandidater, out_status, out_deep_status):
     first_count = []
     score = []
     for i in range(len(kandidater)):
@@ -79,11 +78,13 @@ def forste_opptelling(stemmesedler, kandidater, out_status):
 
     tekst = '\n\nFørste opptelling.\nKandidater med score:'
     print_status(out_status, tekst)
+    print_status(out_deep_status, tekst)
 
     for i in range(len(kandidater)):
         name_spacing = ' ' * (len(max(kandidater, key=len)) - len(kandidater[i]))
         tekst = str('\n' + kandidater[i]) + name_spacing + '\t:\t' + str(score[i])
         print_status(out_status, tekst)
+        print_status(out_deep_status, tekst)
 
     return score
 
@@ -106,7 +107,7 @@ def kontroll_antall_kandidater_igjen(score):
         return False
 
 
-def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out_status):
+def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out_status, out_deep_status):
 
     def hoyest_antall_stemmer(kandidater_, score_, high_score_):
         for i in range(len(kandidater_)):
@@ -131,6 +132,7 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
 
         tekst = '\n' + str(kandidater_[choose_cand_]) + ' har vunnet med ' + str(round(high_score_, 2)) + ' stemmer.'
         print_status(out_status, tekst)
+        print_status(out_deep_status, tekst)
         return choose_cand_
 
     def ny_fordeling(score_, choose_cand_, sperregrense_, kandidater_, stemmesedler_):
@@ -143,6 +145,17 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
         for i in range(len(kandidater_)):
             fordeling.append(0)
             fordel_fordeling.append(0)
+
+        print(choose_cand_)
+
+        # Merk alle stemmesedler med -2 for den som har vunnet
+        for i in range(len(stemmesedler_)):
+            hoyeste_stemme = 100000000000
+            for j in range(len(stemmesedler_[i])):
+                if stemmesedler_[i][j] < hoyeste_stemme:
+                    hoyeste_stemme = j
+            if hoyeste_stemme == choose_cand_:
+                stemmesedler_[i][choose_cand_] = -2
 
         # Se gjennom alle stemmesedlene
         for i in range(len(stemmesedler_)):
@@ -198,6 +211,7 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
 
         tekst = "\nStemmene til " + str(kandidater[choose_cand_] + " er fordelt:")
         print_status(out_status, tekst)
+        print_status(out_deep_status, tekst)
 
         for i in range(len(score_)):
             if score_[i] > 0:
@@ -206,8 +220,9 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
                 tekst = '\n' + str(kandidater[i]) + name_spacing + '\t:\t' + str(round(score_gammel[i], 1)) + '\t+\t' \
                     + str(round(fordel_fordeling[i], 1)) + '\t=\t' + str(round(score_[i], 1))
                 print_status(out_status, tekst)
+                print_status(out_deep_status, tekst)
 
-        return score_
+        return score_, stemmesedler_
 
     # Finn høyest antall stemmer
     high_score = 0
@@ -217,12 +232,12 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
     choose_cand = kandidat_med_flest_stemmer(kandidater, high_score, score, stemmesedler)
 
     # Fordel overflødige stemmer fra kandidaten som har vunnet
-    score = ny_fordeling(score, choose_cand, sperregrense, kandidater, stemmesedler)
+    score, stemmesedler = ny_fordeling(score, choose_cand, sperregrense, kandidater, stemmesedler)
 
     return score, stemmesedler, choose_cand
 
 
-def ny_fordeling_etter_tap(score, stemmesedler, sperregrense, kandidater, out_status):
+def ny_fordeling_etter_tap(score, stemmesedler, sperregrense, kandidater, out_status, out_deep_status):
 
     def laveste_antall_stemmer(kandidater_, score_, low_score_):
         for i in range(len(kandidater_)):
@@ -246,6 +261,7 @@ def ny_fordeling_etter_tap(score, stemmesedler, sperregrense, kandidater, out_st
 
         tekst = '\n' + str(kandidater_[choose_cand_]) + ' har tapt med ' + str(round(low_score_, 1)) + ' stemmer.'
         print_status(out_status, tekst)
+        print_status(out_deep_status, tekst)
         return choose_cand_
 
     def ny_fordeling(score_, choose_cand_, sperregrense_, kandidater_, stemmesedler_):
@@ -298,6 +314,7 @@ def ny_fordeling_etter_tap(score, stemmesedler, sperregrense, kandidater, out_st
         score[choose_cand_] = -1.0
         return score_
 
+
     # Finn lavest antall stemmer
     low_score = 10
     low_score = laveste_antall_stemmer(kandidater, score, low_score)
@@ -307,5 +324,6 @@ def ny_fordeling_etter_tap(score, stemmesedler, sperregrense, kandidater, out_st
 
     # Fordel overflødige stemmer fra kandidaten til de resterende kandidatene
     score = ny_fordeling(score, choose_cand, sperregrense, kandidater, stemmesedler)
+
 
     return score, stemmesedler, choose_cand
