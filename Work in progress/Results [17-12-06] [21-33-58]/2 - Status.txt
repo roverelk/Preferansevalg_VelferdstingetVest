@@ -1,0 +1,33 @@
+Antall kandidater: 4
+Antall stemmer: 20
+Sperregrense: 5.01
+
+Første opptelling.
+Kandidater med score:
+A	:	18
+B	:	0
+C	:	0
+D	:	2
+
+Runde nummer 1
+Kandidat har VUNNET
+A har vunnet med 18 stemmer.
+Stemmene til A er fordelt:
+B	:	0	+	13.0	=	13.0
+D	:	2	+	0.0	=	2.0
+
+Runde nummer 2
+Kandidat har VUNNET
+B har vunnet med 12.99 stemmer.
+Stemmene til B er fordelt:
+D	:	2.0	+	0	=	2.0
+
+Runde nummer 3
+Kandidat har TAPT
+C har tapt med 0.0 stemmer.
+
+Runde nummer 4
+Kandidat har TAPT
+D har tapt med 2.0 stemmer.
+
+Åpne Resultat.xlsx for å se endelig resultat.

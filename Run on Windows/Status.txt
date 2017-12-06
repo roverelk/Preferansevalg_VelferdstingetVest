@@ -1,0 +1,63 @@
+Antall kandidater: 10
+Antall stemmer: 20
+Sperregrense: 2.01
+
+Første opptelling.
+Kandidater med score:
+A	:	18
+B	:	0
+C	:	0
+D	:	2
+E	:	0
+F	:	0
+G	:	0
+H	:	0
+I	:	0
+J	:	0
+
+Runde nummer 1
+Kandidat har VUNNET
+A har vunnet med 18 stemmer.
+Stemmene til A er fordelt:
+B	:	0	+	15.99	=	15.99
+D	:	2	+	0.0	=	2.0
+
+Runde nummer 2
+Kandidat har VUNNET
+B har vunnet med 15.99 stemmer.
+Stemmene til B er fordelt:
+D	:	2.0	+	0	=	2.0
+
+Runde nummer 3
+Kandidat har TAPT
+H har tapt med 0.0 stemmer.
+
+Runde nummer 4
+Kandidat har TAPT
+E har tapt med 0.0 stemmer.
+
+Runde nummer 5
+Kandidat har TAPT
+C har tapt med 0.0 stemmer.
+
+Runde nummer 6
+Kandidat har TAPT
+F har tapt med 0.0 stemmer.
+
+Runde nummer 7
+Kandidat har TAPT
+I har tapt med 0.0 stemmer.
+
+Runde nummer 8
+Kandidat har TAPT
+J har tapt med 0.0 stemmer.
+
+Runde nummer 9
+Kandidat har TAPT
+G har tapt med 0.0 stemmer.
+
+Runde nummer 10
+Kandidat har TAPT
+D har tapt med 2.0 stemmer.
+
+Åpne Resultat.xlsx for å se endelig resultat.
