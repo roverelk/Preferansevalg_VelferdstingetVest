@@ -146,13 +146,13 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
             fordeling.append(0)
             fordel_fordeling.append(0)
 
-        print(choose_cand_)
+        print('choose_cand_: ' + str(choose_cand_))
 
         # Merk alle stemmesedler med -2 for den som har vunnet
         for i in range(len(stemmesedler_)):
             hoyeste_stemme = 100000000000
             for j in range(len(stemmesedler_[i])):
-                if stemmesedler_[i][j] < hoyeste_stemme:
+                if stemmesedler_[i][j] < hoyeste_stemme and stemmesedler_[i][j] > 0:
                     hoyeste_stemme = j
             if hoyeste_stemme == choose_cand_:
                 stemmesedler_[i][choose_cand_] = -2
@@ -179,7 +179,7 @@ def ny_fordeling_etter_vunnet(score, stemmesedler, sperregrense, kandidater, out
 
                         # Sett den stemmeseddelen til å bli satt som brukt for sin posisjon, så den ikke kan gå til
                         # samme person en gang til.
-                        stemmesedler_[i][posisjon] = -1
+                        stemmesedler_[i][posisjon] = -2
                     else:
                         posisjon += 1
 

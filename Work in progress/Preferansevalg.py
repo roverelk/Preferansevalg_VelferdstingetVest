@@ -17,6 +17,7 @@ from openpyxl import Workbook, load_workbook
 import time
 import os
 import shutil
+import numpy as np
 
 # SET TIME
 t = time.localtime()
@@ -25,6 +26,8 @@ t = time.localtime()
 output_file =        'Resultat.xlsx'
 output_status =      'Status.txt'
 output_deep_status = 'Deep_status.txt'
+
+# output_result_array = []
 
 # Sett opp excel-ark for å skrive inn data
 wb = Workbook()
@@ -45,17 +48,18 @@ kandidater, stemmesedler = importer_stemmesedler(input_file)
 sperregrense = finn_sperregrense(kandidater, stemmesedler)
 
 # PRINT STATUS TIL TXT
-print_status(output_status, ('Antall kandidater: ' + str(len(kandidater))))
-print_status(output_status, ('\nAntall stemmer: ' + str(len(stemmesedler))))
-print_status(output_status, ('\nSperregrense: ' + str(sperregrense)))
+print_status(output_status, ('Antall kandidater: ' + str(len(kandidater)) +
+                             '\nAntall stemmer: ' + str(len(stemmesedler)) +
+                             '\nSperregrense: ' + str(sperregrense)))
 
-print_status(output_deep_status, ('Antall kandidater: ' + str(len(kandidater))))
-print_status(output_deep_status, ('\nAntall stemmer: ' + str(len(stemmesedler))))
-print_status(output_deep_status, ('\nSperregrense: ' + str(sperregrense)))
+print_status(output_deep_status, ('Antall kandidater: ' + str(len(kandidater)) +
+                                  '\nAntall stemmer: ' + str(len(stemmesedler)) +
+                                  '\nSperregrense: ' + str(sperregrense)))
 
 score = forste_opptelling(stemmesedler, kandidater, output_status, output_deep_status)
 
 tapende_plass = len(kandidater)
+output_result_array = ["" for x in range(len(kandidater))]
 
 # SE OM NOEN HAR VUNNET
 flere_kandidater = True
@@ -80,8 +84,13 @@ while(flere_kandidater):
         ws = wb.active
         ws.cell(row=R, column=C).value = R - 1
         ws.cell(row=R, column=C+1).value = str(kandidater[choose_cand])
-        R += 1
         wb.save(output_file)
+
+        print('R:' + str(R))
+        output_result_array[R - 2] = str(kandidater[choose_cand])
+
+        R += 1
+
     else:
         # FINN PERSON MED LAVEST SCORE
         print_status(output_status, '\nKandidat har TAPT')
@@ -102,27 +111,37 @@ while(flere_kandidater):
         ws.cell(row=R, column=C + 1).value = str(kandidater[choose_cand])
         R += 1
         wb.save(output_file)
+
+        output_result_array[tapende_plass - 1] = str(kandidater[choose_cand])
+
         tapende_plass -= 1
+
     # Tell opp hvor mange stemmer hver person fikk som sin førstestemme.
     flere_kandidater = kontroll_antall_kandidater_igjen(score)
     print('Antall kandidater igjen:', flere_kandidater)
 
     # Skrive sistemann på arket
+    print_status(output_deep_status, '\nOversikt score mellom runder')
+    for i in range(len(kandidater)):
+        name_spacing = ' ' * (len(max(kandidater, key=len)) - len(kandidater[i]))
+        tekst = str('\n' + kandidater[i]) + name_spacing + '\t:\t' + str(score[i])
+        print_status(output_deep_status, tekst)
 
 tekst = '\n\nÅpne Resultat.xlsx for å se endelig resultat.'
 print_status(output_status, tekst)
 print_status(output_deep_status, tekst)
 
 
-# EKSPORTER RESULTATER
+# EKSPORTER RESULTATER + SORT CORRECTLY
 output_folder = 'Results [' + str(time.strftime('%y-%m-%d] [%H-%M-%S]'))
 try:
     os.stat(output_folder)
 except:
     os.mkdir(output_folder)
+#Move all the files into folder
+os.renames(output_file,         output_folder + '/1 - ' + output_file)
+os.renames(output_status,       output_folder + '/2 - ' + output_status)
+os.renames(output_deep_status,  output_folder + '/3 - ' + output_deep_status)
+shutil.copyfile(input_file,     output_folder + '/4 - ' + input_file)
 
-#Move all the files
-os.renames(output_file, output_folder + '/1 - ' + output_file)
-os.renames(output_status, output_folder + '/2 - ' + output_status)
-os.renames(output_deep_status, output_folder + '/3 - ' + output_deep_status)
-
+print(output_result_array)
