@@ -1,0 +1,3 @@
+To-Do:
+
+[ ] Legg til at det skrives ut når to kandidater har like mange stemmer og så må velge en av dem i Status.txt.

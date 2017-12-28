@@ -1,0 +1,20 @@
+PROBLEMSTILLINGER SOM MÅ LØSES:
+
+#1 - To kandidater har like mange stemmer, og begge har vunnet.
+
+Løsning:    En teller andre-stemmene for de to kandidatene, og velger den med flest andrestemmer. Om de har like
+            mange andrestemmer, teller en dem av de to som har flest tredjestemmer etc. Om de har like mange
+            stemmer gjennom hele stemmeseddel kan en enten velge med myntkast eller kreve omvalg(?)
+
+
+#2 - To kandidater ligger over sperregrensen, Kandidat 1 og Kandidat 2. Kandidat 1 vinner, og Kandidat 1 sitt
+    stemmeoverskudd fordeles på nytt. Etter fordelingen blir Kandidat 2 forbigått av Kandidat 3. Skal en da kåre
+    Kandidat 2 eller Kndidat 3 til andreplassen?
+
+Løsning #1: Ved flere kandidater over sperregrensen vil de alle vinne i den rekkefølgen de står. Så fordeles de
+            overflødige stemmen fra alle likt. Så ser en på nytt om noen nye har kommet over sperregrensen.
+
+Løsning #2: En teller en kandidat av gangen. Fordeler stemmer, så teller neste jandidat som har flest. Uavhengig om
+            en i mellomtiden har gått forbi noen.
+
+

@@ -22,7 +22,7 @@ Om du allerede har `Python 3.6` og `openpyxl` installert kan du kjøre en test f
 4. Gratulerer alt virker!
 
 ## Installasjonsguide for Windows
-Du trenger Python for å kunne kjøre programfilene.
+Du trenger Python for å kunne kjøre programfilene. Last ned Python 3.6 _før_ du laster ned plugins.
 ### Python 3.6
 Last ned: [Python 3.6.3](https://www.python.org/ftp/python/3.6.3/python-3.6.3.exe "This is a direct donwload link :-)")
 
