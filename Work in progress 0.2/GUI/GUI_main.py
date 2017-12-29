@@ -14,13 +14,13 @@ class Window(QtGui.QMainWindow):
         self.setGeometry(400, 200, 1200, 800)
 
         # Locking the size to (1200, 800)
-        self.setFixedSize(1200, 800)
+        self.setFixedSize(260, 280)
 
         # Setting the title of the window
         self.setWindowTitle("Preferansevalg")
 
         # Setting the GUI icon
-        self.setWindowIcon(QtGui.QIcon('tf.jpg'))
+        self.setWindowIcon(QtGui.QIcon('VT vest logo.png'))
 
         # Setting the style of the GUI.
         # Other alternatives: Plastique, Windows etc.
@@ -49,13 +49,13 @@ class Window(QtGui.QMainWindow):
         main_menu = self.menuBar()
 
         # Adding 'File' to the menu
-        file_menu = main_menu.addMenu('&Fil')
+        file_menu = main_menu.addMenu(tekst('Menu1'))
 
         # Connecting function to 'File'
         file_menu.addAction(extract_action)
 
         # Creating an 'Help' box
-        open_help_box = QtGui.QAction("&Hjelp", self)
+        open_help_box = QtGui.QAction(tekst('Menu2'), self)
 
         # Setting a shortcut for 'Help'
         open_help_box.setShortcut("Ctrl+H")
@@ -64,13 +64,13 @@ class Window(QtGui.QMainWindow):
         open_help_box.triggered.connect(self.open_help)
 
         # Adding 'Help' to menu
-        help_menu = main_menu.addMenu("&Hjelp")
+        help_menu = main_menu.addMenu(tekst('Menu2'))
 
         # Connecting function to 'Help'
         help_menu.addAction(open_help_box)
 
         # Creating an 'About' box
-        open_about_box = QtGui.QAction("&Om", self)
+        open_about_box = QtGui.QAction(tekst('Menu3'), self)
 
         # Setting a shortcut for 'About'
         open_about_box.setShortcut("Ctrl+E")
@@ -79,7 +79,7 @@ class Window(QtGui.QMainWindow):
         open_about_box.triggered.connect(self.open_about)
 
         # Adding 'About' to menu
-        about_menu = main_menu.addMenu("&Om")
+        about_menu = main_menu.addMenu(tekst('Menu3'))
 
         # Connecting function to 'About'
         about_menu.addAction(open_about_box)
@@ -111,42 +111,34 @@ class Window(QtGui.QMainWindow):
         self.output_field.append('\n' + tekst('2'))
 
         # Moving the textfield
-        self.output_field.move(100, 100)
+        self.output_field.move(20, 25)
 
         # Setting the textfield size
-        self.output_field.resize(500, 500)
-
-        # Creating an exit function to tie to toolbar
-        extract_action = QtGui.QAction(QtGui.QIcon('tf.jpg'), 'Exit', self)
-        extract_action.triggered.connect(self.close_application)
-
-        # Creating a toolbar
-        self.toolBar = self.addToolBar("Exit")
-        self.toolBar.addAction(extract_action)
+        self.output_field.resize(220, 142)
 
         # Creating buttons
-        self.predict_btn = QtGui.QPushButton("Predict", self)
-        self.trainModel_btn = QtGui.QPushButton("Train Model", self)
-        self.convert_btn = QtGui.QPushButton("Convert", self)
-        self.quit_btn = QtGui.QPushButton("Quit", self)
+        self.btn_calculateBallot = QtGui.QPushButton(tekst('Button1'), self)
+        self.btn_createExample = QtGui.QPushButton(tekst('Button2'), self)
+        self.btn_whatIsSTV = QtGui.QPushButton(tekst('Button3'), self)
+        self.quit_btn = QtGui.QPushButton(tekst('Button4'), self)
 
         # Set fixed size to buttons
-        self.trainModel_btn.setFixedSize(100, 30)
-        self.predict_btn.setFixedSize(100,30)
-        self.convert_btn.setFixedSize(100, 30)
+        self.btn_whatIsSTV.setFixedSize(100, 30)
+        self.btn_createExample.setFixedSize(100, 30)
+        self.btn_calculateBallot.setFixedSize(100, 30)
         self.quit_btn.setFixedSize(100, 30)
 
         # Move buttons
-        self.predict_btn.move(575, 772)
-        self.trainModel_btn.move(475, 772)
-        self.convert_btn.move(375, 772)
-        self.quit_btn.move(675, 772)
+        self.btn_calculateBallot.move(20, 182)
+        self.btn_whatIsSTV.move(140, 182)
+        self.btn_createExample.move(20, 232)
+        self.quit_btn.move(140, 232)
 
         # Adding functions to buttons
         self.quit_btn.clicked.connect(self.close_application)
-        self.predict_btn.clicked.connect(self.predict_model)
-        self.convert_btn.clicked.connect(self.convert_clicked)
-        self.trainModel_btn.clicked.connect(self.train_model_clicked)
+        self.btn_createExample.clicked.connect(self.predict_model)
+        self.btn_calculateBallot.clicked.connect(self.convert_clicked)
+        self.btn_whatIsSTV.clicked.connect(self.train_model_clicked)
 
         # Creating a progressbar to indicate
         # that a process is running
@@ -171,15 +163,15 @@ class Window(QtGui.QMainWindow):
     def buttons_on(self):
         #Method to turn on buttons
         # after they have been disabled
-        self.convert_btn.setEnabled(True)
-        self.trainModel_btn.setEnabled(True)
-        self.predict_btn.setEnabled(True)
+        self.btn_calculateBallot.setEnabled(True)
+        self.btn_whatIsSTV.setEnabled(True)
+        self.btn_createExample.setEnabled(True)
 
     def buttons_off(self):
         # Method to turn off buttons during a process
-        self.convert_btn.setEnabled(False)
-        self.trainModel_btn.setEnabled(False)
-        self.predict_btn.setEnabled(False)
+        self.btn_calculateBallot.setEnabled(False)
+        self.btn_whatIsSTV.setEnabled(False)
+        self.btn_createExample.setEnabled(False)
 
     def open_about(self):
         # Opening messagebox with information
