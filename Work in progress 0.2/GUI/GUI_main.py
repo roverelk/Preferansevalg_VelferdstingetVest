@@ -119,26 +119,26 @@ class Window(QtGui.QMainWindow):
         # Creating buttons
         self.btn_calculateBallot = QtGui.QPushButton(tekst('Button1'), self)
         self.btn_createExample = QtGui.QPushButton(tekst('Button2'), self)
-        self.btn_whatIsSTV = QtGui.QPushButton(tekst('Button3'), self)
-        self.quit_btn = QtGui.QPushButton(tekst('Button4'), self)
+        self.btn_FAQ = QtGui.QPushButton(tekst('Button3'), self)
+        self.btn_quit = QtGui.QPushButton(tekst('Button4'), self)
 
         # Set fixed size to buttons
-        self.btn_whatIsSTV.setFixedSize(100, 30)
+        self.btn_FAQ.setFixedSize(100, 30)
         self.btn_createExample.setFixedSize(100, 30)
         self.btn_calculateBallot.setFixedSize(100, 30)
-        self.quit_btn.setFixedSize(100, 30)
+        self.btn_quit.setFixedSize(100, 30)
 
         # Move buttons
         self.btn_calculateBallot.move(20, 182)
-        self.btn_whatIsSTV.move(140, 182)
+        self.btn_FAQ.move(140, 182)
         self.btn_createExample.move(20, 232)
-        self.quit_btn.move(140, 232)
+        self.btn_quit.move(140, 232)
 
         # Adding functions to buttons
-        self.quit_btn.clicked.connect(self.close_application)
+        self.btn_quit.clicked.connect(self.close_application)
         self.btn_createExample.clicked.connect(self.predict_model)
         self.btn_calculateBallot.clicked.connect(self.convert_clicked)
-        self.btn_whatIsSTV.clicked.connect(self.train_model_clicked)
+        self.btn_FAQ.clicked.connect(self.clicked_run_count_votes)
 
         # Creating a progressbar to indicate
         # that a process is running
@@ -164,26 +164,18 @@ class Window(QtGui.QMainWindow):
         #Method to turn on buttons
         # after they have been disabled
         self.btn_calculateBallot.setEnabled(True)
-        self.btn_whatIsSTV.setEnabled(True)
+        self.btn_FAQ.setEnabled(True)
         self.btn_createExample.setEnabled(True)
 
     def buttons_off(self):
         # Method to turn off buttons during a process
         self.btn_calculateBallot.setEnabled(False)
-        self.btn_whatIsSTV.setEnabled(False)
+        self.btn_FAQ.setEnabled(False)
         self.btn_createExample.setEnabled(False)
 
     def open_about(self):
         # Opening messagebox with information
-        choice = QtGui.QMessageBox.information(self, 'About',
-                                            "Bachelor project at Western "
-                                            "Norway University of applied "
-                                            "sciences\n\n"
-                                            "\nDesigned by:\nFredrik "
-                                            "Kvist, Eirik K. "
-                                            "Kjevik and"
-                                            " Silja Svensson",
-                                            QtGui.QMessageBox.Ok)
+        choice = QtGui.QMessageBox.information(self, tekst('Menu3'), tekst('Menu3_text'), QtGui.QMessageBox.Ok)
         if choice == QtGui.QMessageBox.Ok:
             pass
         else:
@@ -191,47 +183,17 @@ class Window(QtGui.QMainWindow):
 
     def open_help(self):
         # Opening messagebox with information
-        choice = QtGui.QMessageBox.information(self, 'Help',
-                                               "Convert: \nWill convert "
-                                               ".txt file with float "
-                                               "values into .csv files"
-                                               " of batches of 500 values"
-                                               " per line. This is the "
-                                               "neccesary format to train"
-                                               " a TensorFlow mode.\n\n"
-                                               "Train Model: \nImports the"
-                                               " .csv files and creates a "
-                                               "set of 3 .ckpt files that "
-                                               "together makes up the "
-                                               "TensorFlow model.There "
-                                               "will be created a model"
-                                               " every 50th iteration "
-                                               "of the training."
-                                               " We recommend using the"
-                                               " last trained iteration."
-                                               "\n\nPredict: \nLoad in"
-                                               " a trained .cpkt model"
-                                               " and use it to predict"
-                                               " either indent or "
-                                               "classification. You will "
-                                               "need separate models for "
-                                               "each type of prediction. "
-                                               "They are not compatible to"
-                                               " work for the other type "
-                                               "and will give you an "
-                                               "error message if you "
-                                               "try to use it.",
-                                               QtGui.QMessageBox.Ok)
+        choice = QtGui.QMessageBox.information(self, tekst('Menu2'), tekst('Menu2_text'), QtGui.QMessageBox.Ok)
         if choice == QtGui.QMessageBox.Ok:
             pass
         else:
             pass
 
-    def train_model_clicked(self):
+    def clicked_run_count_votes(self):
         # .ckpt-fil
         file_name = ""
         iteration_number = 0
-        self.output_field.setText("TRAIN MODEL\n\nInitilizing training...")
+        self.output_field.setText(tekst('Button3_clicked'))
 
         new_train_feature = []
         new_train_label = []
