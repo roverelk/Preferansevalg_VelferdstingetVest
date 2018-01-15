@@ -1,8 +1,8 @@
 # Preferansevalg - FAQ
-* [Hva er preferansevalg?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#hva-er-preferansevalg)
-* [Hvem kan bruke det?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#hva-er-preferansevalg)
-* [Må jeg kunne noe for å bruke dette?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#må-jeg-kunne-noe-for-å-bruke-dette?)
-* [Det tar lang tid å skrive inn alle stemmesedlene](https://github.com/roverelk/Preferansevalg_VelferdstingetVest#det-tar-lang-tid-å-skrive-inn-alle-stemmesedlene)
+* [Hva er preferansevalg?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#hva-er-preferansevalg)
+* [Hvem kan bruke det?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#hva-er-preferansevalg)
+* [Må jeg kunne noe for å bruke dette?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#må-jeg-kunne-noe-for-å-bruke-dette?)
+* [Det tar lang tid å skrive inn alle stemmesedlene](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#det-tar-lang-tid-å-skrive-inn-alle-stemmesedlene)
 
 ## Hva er preferansevalg?
 Preferansevalg er et valgsystem hvor en kan sette opp alle kandidatene en vil stemme på i prioritert rekkefølge.
