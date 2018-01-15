@@ -32,3 +32,14 @@ def tekst(x):
                            '<a href="where/you/want/the/link/to/go">text of the link</a>'
 
     }.get(x, 'ERROR: TEXT NOT FOUND')
+
+def posisjoner(x):
+    return{
+        'Vindu_h'   : 600,
+        'Vindu_b'   : 500,
+        'Knapp_h'   : 50,
+        'Knapp_b'   : 220,
+        'Marg_h'    : 20,
+        'Marg_b'    : 20,
+        'Marg_topp' : 50
+    }.get(x, 'ERROR: MEASURMENT NOT FOUND')

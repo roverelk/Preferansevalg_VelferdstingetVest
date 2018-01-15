@@ -2,7 +2,7 @@ import sys
 from PyQt4 import QtGui
 from PyQt4.QtGui import *
 
-from TesktTilGui import tekst
+from TesktTilGui import tekst, posisjoner
 
 class Window(QtGui.QMainWindow):
     def __init__(self):
@@ -14,7 +14,7 @@ class Window(QtGui.QMainWindow):
         self.setGeometry(400, 200, 1200, 800)
 
         # Locking the size to (1200, 800)
-        self.setFixedSize(260, 280)
+        self.setFixedSize(posisjoner('Vindu_b'), posisjoner('Vindu_h'))
 
         # Setting the title of the window
         self.setWindowTitle("Preferansevalg")
@@ -111,10 +111,12 @@ class Window(QtGui.QMainWindow):
         self.output_field.append('\n' + tekst('2'))
 
         # Moving the textfield
-        self.output_field.move(20, 25)
+        self.output_field.move(posisjoner('Marg_b'), posisjoner('Marg_topp'))
 
         # Setting the textfield size
-        self.output_field.resize(220, 142)
+        self.output_field.resize(posisjoner('Vindu_b') - posisjoner('Marg_b') * 2,
+                                 posisjoner('Vindu_h') - posisjoner('Marg_h') * 3 - posisjoner('Knapp_h') * 2
+                                 - posisjoner('Marg_topp'))
 
         # Creating buttons
         self.btn_calculateBallot = QtGui.QPushButton(tekst('Button1'), self)
@@ -123,16 +125,20 @@ class Window(QtGui.QMainWindow):
         self.btn_quit = QtGui.QPushButton(tekst('Button4'), self)
 
         # Set fixed size to buttons
-        self.btn_FAQ.setFixedSize(100, 30)
-        self.btn_createExample.setFixedSize(100, 30)
-        self.btn_calculateBallot.setFixedSize(100, 30)
-        self.btn_quit.setFixedSize(100, 30)
+        self.btn_FAQ.setFixedSize(posisjoner('Knapp_b'), posisjoner('Knapp_h'))
+        self.btn_createExample.setFixedSize(posisjoner('Knapp_b'), posisjoner('Knapp_h'))
+        self.btn_calculateBallot.setFixedSize(posisjoner('Knapp_b'), posisjoner('Knapp_h'))
+        self.btn_quit.setFixedSize(posisjoner('Knapp_b'), posisjoner('Knapp_h'))
 
         # Move buttons
-        self.btn_calculateBallot.move(20, 182)
-        self.btn_FAQ.move(140, 182)
-        self.btn_createExample.move(20, 232)
-        self.btn_quit.move(140, 232)
+        self.btn_calculateBallot.move(posisjoner('Marg_b'),
+                                      (posisjoner('Vindu_h') - posisjoner('Marg_h') * 2 - posisjoner('Knapp_h') * 2))
+        self.btn_FAQ.move((posisjoner('Marg_b') * 2 + posisjoner('Knapp_b')),
+                          (posisjoner('Vindu_h') - posisjoner('Marg_h') * 2 - posisjoner('Knapp_h') * 2))
+        self.btn_createExample.move(posisjoner('Marg_b'),
+                                    (posisjoner('Vindu_h') - posisjoner('Marg_h') - posisjoner('Knapp_h')))
+        self.btn_quit.move((posisjoner('Marg_b') * 2 + posisjoner('Knapp_b')),
+                           (posisjoner('Vindu_h') - posisjoner('Marg_h') - posisjoner('Knapp_h')))
 
         # Adding functions to buttons
         self.btn_quit.clicked.connect(self.close_application)
