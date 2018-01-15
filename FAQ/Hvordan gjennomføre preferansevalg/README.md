@@ -1,4 +1,4 @@
-# Hvordan gejnnomføre preferansevalg
+# Hvordan gjennomføre preferansevalg
 ## 1. Forberedelser
 1. Print ut stemmesedler.
 
