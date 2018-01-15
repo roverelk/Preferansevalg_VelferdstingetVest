@@ -1,0 +1,745 @@
+Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3
+B	:	2
+C	:	0
+D	:	0
+E	:	0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	0.0
+B	:	0.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	0.0
+B	:	0.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	0.0
+B	:	0.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0Antall kandidater: 5
+Antall stemmer: 5
+Sperregrense: 1.01
+
+Første opptelling.
+Kandidater med score:
+A	:	3.0
+B	:	2.0
+C	:	0.0
+D	:	0.0
+E	:	0.0
+
+Antall kandidater: 9
+Antall stemmer: 24
+Sperregrense: 2.6766666666666663
+
+Første opptelling.
+Kandidater med score:
+A	:	6.0
+B	:	6.0
+C	:	0.0
+D	:	4.0
+E	:	4.0
+F	:	0.0
+G	:	1.0
+H	:	3.0
+I	:	0.0
+
+Antall kandidater: 9
+Antall stemmer: 24
+Sperregrense: 2.6766666666666663
+
+Første opptelling.
+Kandidater med score:
+A	:	6.0
+B	:	6.0
+C	:	0.0
+D	:	4.0
+E	:	4.0
+F	:	0.0
+G	:	1.0
+H	:	3.0
+I	:	0.0Antall kandidater: 9
+Antall stemmer: 24
+Sperregrense: 2.6766666666666663
+
+Første opptelling.
+Kandidater med score:
+A	:	6.0
+B	:	6.0
+C	:	0.0
+D	:	4.0
+E	:	4.0
+F	:	0.0
+G	:	1.0
+H	:	3.0
+I	:	0.0Antall kandidater: 9
+Antall stemmer: 24
+Sperregrense: 2.6766666666666663
+
+Første opptelling.
+Kandidater med score:
+A	:	6.0
+B	:	6.0
+C	:	0.0
+D	:	4.0
+E	:	4.0
+F	:	0.0
+G	:	1.0
+H	:	3.0
+I	:	0.0Antall kandidater: 9
+Antall stemmer: 24
+Sperregrense: 2.6766666666666663
+
+Første opptelling.
+Kandidater med score:
+A	:	6.0
+B	:	6.0
+C	:	0.0
+D	:	4.0
+E	:	4.0
+F	:	0.0
+G	:	1.0
+H	:	3.0
+I	:	0.0Antall kandidater: 9
+Antall stemmer: 24
+Sperregrense: 2.6766666666666663
+
+Første opptelling.
+Kandidater med score:
+A	:	6.0
+B	:	6.0
+C	:	0.0
+D	:	4.0
+E	:	4.0
+F	:	0.0
+G	:	1.0
+H	:	3.0
+I	:	0.0
+
+Antall kandidater: 9
+Antall stemmer: 24
+Sperregrense: 2.6766666666666663
+
+Første opptelling.
+Kandidater med score:
+A	:	6.0
+B	:	6.0
+C	:	0.0
+D	:	4.0
+E	:	4.0
+F	:	0.0
+G	:	1.0
+H	:	3.0
+I	:	0.0
