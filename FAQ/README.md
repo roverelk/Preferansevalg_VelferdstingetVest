@@ -21,4 +21,4 @@ Minimalt! du må kunne åpne excel, skrive tall i det, lagre excel og klikke på
 Tips: Lag excel-arket i Google Drive, så kan flere skrive inn stemmesedler samtidig. Når alle stemmene er skrevet inn kopierer du dem inn i Excel (siden det er det dette programmet leser) og lar programmet stå for å telle over stemmene.
 
 # Fikk du ikke svar?
-[Fyll ut skjema her så skal jeg svare deg](https://goo.gl/forms/LmVzq776RwhD7VB12)
+[Fyll ut skjema er så skal jeg svare deg](https://goo.gl/forms/LmVzq776RwhD7VB12)h
