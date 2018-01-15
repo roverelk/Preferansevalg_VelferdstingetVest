@@ -5,6 +5,8 @@
 Her er et eksempel på hvordan de kan se ut:
 Det er to varianter som er vanlig:
 
+<img src="https://pbs.twimg.com/profile_images/892342855943036928/YBSKHYbA_400x400.jpg" width="200" height="200" align="right">
+
 1. Alle kandidatene står skrevet på fra før i alfabetisk rekkefølge med felter foran alle kandidatene, så en kan nummerere dem.
 1. Blanke stemmesedler med tomme nummererte linjer, så kan alle skrive opp de kandidatene de vil stemme på i prioritert rekkefølge.
 
