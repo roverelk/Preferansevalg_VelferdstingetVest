@@ -28,8 +28,9 @@ def tekst(x):
 
         'Menu3_text': 'Preferansevalg (a.k.a. Single Transferable Vote)',
 
-        'Button3_clicked': 'FAQ er klikket.\n\nDet skal ha åpnet en link, hvis ikke trykk her:'
-                           '<a href="where/you/want/the/link/to/go">text of the link</a>'
+        'Button3_clicked': 'FAQ\n\nDet skal ha åpnet en link, hvis ikke trykk her:'
+                           '<a href="where/you/want/the/link/to/go">text of the link</a>',
+        'Button3_error': 'FAQ\n\nCancelled. Not able to open link.'
 
     }.get(x, 'ERROR: TEXT NOT FOUND')
 

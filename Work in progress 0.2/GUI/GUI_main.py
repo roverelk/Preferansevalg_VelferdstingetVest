@@ -1,6 +1,7 @@
 import sys
 from PyQt4 import QtGui
 from PyQt4.QtGui import *
+import webbrowser
 
 from TesktTilGui import tekst, posisjoner
 
@@ -144,7 +145,7 @@ class Window(QtGui.QMainWindow):
         self.btn_quit.clicked.connect(self.close_application)
         self.btn_createExample.clicked.connect(self.predict_model)
         self.btn_calculateBallot.clicked.connect(self.convert_clicked)
-        self.btn_FAQ.clicked.connect(self.clicked_run_count_votes)
+        self.btn_FAQ.clicked.connect(self.clicked_FAQ)
 
         # Creating a progressbar to indicate
         # that a process is running
@@ -194,6 +195,21 @@ class Window(QtGui.QMainWindow):
             pass
         else:
             pass
+
+    def open_url(self):
+        url = QtCore.QUrl('http://some.domain.com/path')
+        if not QtGui.QDesktopServices.openUrl(url):
+            QtGui.QMessageBox.warning(self, 'Open Url', 'Could not open url')
+
+    def clicked_FAQ(self):
+        try:
+            webbrowser.open('http://stackoverflow.com')
+            self.ui.actionFsa_format.triggered.connect(self.open_url)
+            self.buttons_off()
+        except:
+            self.buttons_on()
+            self.output_field.setText(tekst('Button3_error'))
+
 
     def clicked_run_count_votes(self):
         # .ckpt-fil
