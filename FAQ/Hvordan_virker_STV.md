@@ -1,3 +1,5 @@
+[<- Tilbake til FAQ](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ)
+
 # Hvordan virker preferansevalg
 ## 1. Forberedelser
 1. Print ut stemmesedler.

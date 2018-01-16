@@ -1,3 +1,5 @@
+[<- Tilbake til FAQ](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ)
+
 # Hvordan gjennomføre preferansevalg
 ## 1. Forberedelser
 
