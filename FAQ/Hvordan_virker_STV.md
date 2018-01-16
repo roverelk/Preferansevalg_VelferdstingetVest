@@ -12,7 +12,7 @@ Denne guiden forklarer hvordan preferansevalg gjennomføres i selve opptellingen
 1. Regn ut sperregrensen, dette er formelen som er normal å bruke:
 
 <p align="center">
-<img src="">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_5.png?raw=true">
 </p>
 
 5. Nå har du tre stykker informasjon: Antall kandidater, antall stemmer og sperregrensen.
@@ -32,17 +32,25 @@ Det er nå det blir litt mer avansert, alt frem til nå kan en regne som initiel
 ### En kandidat er over sperregrensen
 
 1. Skriv denne kandiaten på et eget ark, har en  vunnet står en som nummer "1" og etterhvert som kandidater kommer over sperregrensen kommer de i prioritert rekkefølge.
-1. Regn ut:
 
 <p align="center">
-<img src="Vekttall til kandidat - Sperregresne = vekttall som skal fordeles til gjennværense kandidater">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_11.png?raw=true">
+</p>
+
+2. Regn ut:
+
+<p align="center">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_6.png?raw=true">
 </p>
 
 3. Ta alle stemmesedlene som har tilfalt den vinnende kandidaten og se hvem de som har skrevet stemmeseddlen har som sin neste prioritering. (Om den neste på stemmeseddelen allerede er valg, går en videre til tredje prioritering osv.)
 1. Fordel de overflødige vekttallene fra kandidaten som har vunnet.
 
 <p align="center">
-<img src="Vis en liten tabell som vises hvordan stemmene fordeles">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_7.png?raw=true">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_9.png?raw=true">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_8.png?raw=true">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_10.png?raw=true">
 </p>
 
 5. Nå er stemme fordelt, kandidaten som har vunnet kan ikke få vekttall fra de resterende kandidatene (naturlig nok). Start på nytt med å se om en (eller flere) ny(e) kandidat(er) har vunnet, eller om en må fordele stemmene til en tapende kandidat.
