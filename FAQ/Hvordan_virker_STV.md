@@ -1,55 +1,70 @@
 [<- Tilbake til FAQ](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ)
 
-# Hvordan virker preferansevalg
-## 1. Forberedelser
-1. Print ut stemmesedler.
+# Hvordan virker preferansevalg?
 
-Her er et eksempel på hvordan de kan se ut:
-Det er to varianter som er vanlig:
+Hensikt: Gå fra en sto bunke med stemmesedler til å ha prioritert alle kandidater i en prioritert rekkefølge.
 
-<p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/pic/pic_1.png?raw=true">
-</p>
+Denne guiden forklarer hvordan preferansevalg gjennomføres i selve opptellingen,for å se hvordan preferansevalg skal gjennomføres i praksis se [Hvordan gjennomføre preferansevalg](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan_gjennomfore_STV.md).
 
-1. Alle kandidatene står skrevet på fra før i alfabetisk rekkefølge med felter foran alle kandidatene, så en kan nummerere dem.
-1. Blanke stemmesedler med tomme nummererte linjer, så kan alle skrive opp de kandidatene de vil stemme på i prioritert rekkefølge.
-
-## 2. Gjennomførelsen av valget
-(Her tar jeg utgangspunktet i litt generelle regler, en har som regel lange tradisjoner og retningslinjer for hvordan valg skal gjennomføres, men må ha noe å forholde oss til i dette eksempelet.)
-1. Start møtet hvor valget skal gjennomføres.
-1. Få alle kandidatene til å stille seg opp og presentere seg.
+1. Gjør på forhånd: Ha avholdt valg og samlet inn alle stemmesedlene.
+1. Nå har du en stor bunke med stemmesedler foran deg.
+1. Tell opp hvor mange stemmer du har, dette er stemmetallet.
+1. Regn ut sperregrensen, dette er formelen som er normal å bruke:
 
 <p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/pic/pic_2.png?raw=true">
+<img src="">
 </p>
 
-3. Alle kandidatene får som regel noen minutter til å presentere seg etterfulgt av en spørsmålsrunde.
-1. Kandidatene går og setter seg.
-1. Tell hvor mange som skal avgi stemme (du bør vite dette for å kontrollere at du har fått inn alle stemme i ettertid)
-1. Om en bruker blanke stemmesedler, må en skrive navnene til alle kandidater på en tavle e.l. så enm vet hvem en kan stemme på.
+5. Nå har du tre stykker informasjon: Antall kandidater, antall stemmer og sperregrensen.
+1. Tell opp hvor mange førstestemmer folk har fått. Det vil si hvor mange stemmer hver person har fått hvor det står tallet "1" foran.
+1. Nå skal du ha laget deg en liten liste med hvor mange det er.
 
 <p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/pic/pic_3.png?raw=true">
+<img src="">
 </p>
 
-7. Del ut stemmesedler til alle som har lov å avgi stemme.
-1. Gi dem tid til å avgi sin stemme.
-1. Når de er klare bretter de stemmeseddel én gang og holder den foran seg (eller andre lokale tradisjoner)
-1. Samle inn stemmesedlene.
-1. Valget er gjennomført!
-## 3. Opptelling
-Okay, nå har du fått en stor bunke med stemmesedler og har lyst å bruke minst mulig tid fra du samler inn stemmesedlene til du kan annonsere resultatet for valget (dette er motivasjonen din her).
+8. Se om noen har et høyere valgtall (antall stemmer de har fått) enn sperregrensen.
 
-1. Åpne excel.
-1. Åpne valgprogrammet (det du har lastet ned fra denne siden).
-1. Skriv inn alle stemmesedlene i en tabell (om du er usikker kan du få et eksempel av valgprogrammet).
+Det er nå det blir litt mer avansert, alt frem til nå kan en regne som initielle oppgaver en må gjøre.
+
+## Hvis en eller flere kandidater har valgtall over sperregrensen
+
+### En kandidat er over sperregrensen
+
+1. Skriv denne kandiaten på et eget ark, har en  vunnet står en som nummer "1" og etterhvert som kandidater kommer over sperregrensen kommer de i prioritert rekkefølge.
+1. Regn ut:
 
 <p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/pic/pic_4.png?raw=true">
+<img src="Vekttall til kandidat - Sperregresne = vekttall som skal fordeles til gjennværense kandidater">
 </p>
 
-4. Lagre excel-arket.
-1. Fra valgprogrammet, velg excel-arket og la det regne ut svaret.
-1. Du skal nå ha fått en fin mappe på PCen din med resultatet.
+3. Ta alle stemmesedlene som har tilfalt den vinnende kandidaten og se hvem de som har skrevet stemmeseddlen har som sin neste prioritering. (Om den neste på stemmeseddelen allerede er valg, går en videre til tredje prioritering osv.)
+1. Fordel de overflødige vekttallene fra kandidaten som har vunnet.
 
-I mappen vil det også ligge mer detaljerte dokumenter som forklarer alle stegene som er tatt i utregnigen, så om det skulle bli noe krangling har du alt på det rene. Det er ikke vanlig å stemmene eller utrengningen til noen utenfor tellekorpset.
+<p align="center">
+<img src="Vis en liten tabell som vises hvordan stemmene fordeles">
+</p>
+
+5. Nå er stemme fordelt, kandidaten som har vunnet kan ikke få vekttall fra de resterende kandidatene (naturlig nok). Start på nytt med å se om en (eller flere) ny(e) kandidat(er) har vunnet, eller om en må fordele stemmene til en tapende kandidat.
+
+### To eller flere kandidater er over sperregrensen
+
+1. Gjør det samme som ved [En kandidat over sperregrensen](), fordel alle stemmene på lik måte.
+1. En kan ikke fordele stemmer til andre kandidater som  også er over sperregrensen, da går en bare til neste prioriterte kandidat på den stemmeseddelen.
+1. Sett all de vinnende kandidatene i rangert rekkefølge tter hvem som har det høyeste vekttallet.
+
+### Problemstillinger ved vinn som avventer en løsning
+
+* Om to kandidater oppnår samme vekttall, hvem av dem vinner?
+
+## Hvis ingen av kandidatene har valgtall over sperregrensen
+
+1. Finn kandidaten med færrest stemmer.
+1. Plukk ut alle stemmesedlene som tilhører denne kandidaten.
+1. Tell over hvem som er de neste kandidatene på alle stemmesedlene som tilhører den tapende kandidaten.
+1. Fordel stemme på nytt til de neste kandidatene med vekttall "1". (Det betyr du gir dem hele stemmen siden det ikke er noen brøk å fordele som når en kommer over sperregrensen).
+1. Ranger denne kandidaten lavest, om noen allerede har "tapt", blir den nye tapende kandidaten "nest sist" osv. Hver gang er kandidat taper starter en nederst og rangerer dem fra bunnen av.
+
+### Problemstillinger ved tap som avventer en løsning
+
+* Hva om to kandidater har fått null stemmer, hvordan prioriteres de?

@@ -1,6 +1,6 @@
-# Preferansevalg - FAQ
+# FAQ
 
-* [Hvordan gjennomføre preferansevalg?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan_virker_STV.md)
+* [Hvordan gjennomføre preferansevalg?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan_gjennomfore_STV.md)
 * [Hvordan virker preferansevalg?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan_virker_STV.md)
 * [Hva er preferansevalg?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#hva-er-preferansevalg)
 * [Hvem kan bruke det?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#hva-er-preferansevalg)

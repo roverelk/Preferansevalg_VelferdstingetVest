@@ -9,7 +9,7 @@ Her er et eksempel på hvordan de kan se ut:
 Det er to varianter som er vanlig:
 
 <p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_1.png?raw=true" align="center">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_1.png?raw=true">
 </p>
 
 1. Blanke stemmesedler med tomme nummererte linjer, så kan alle skrive opp de kandidatene de vil stemme på i prioritert rekkefølge.
