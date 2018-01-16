@@ -1,4 +1,7 @@
 # Preferansevalg - FAQ
+
+* [Hvordan gjennomføre preferansevalg?]
+* [Hvordan virker preferansevalg?]
 * [Hva er preferansevalg?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#hva-er-preferansevalg)
 * [Hvem kan bruke det?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#hva-er-preferansevalg)
 * [Må jeg kunne noe for å bruke dette?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#må-jeg-kunne-noe-for-å-bruke-dette)

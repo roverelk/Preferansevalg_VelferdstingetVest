@@ -1,6 +1,7 @@
 # Hvordan gjennomføre preferansevalg
 ## 1. Forberedelser
-1. Print ut stemmesedler.
+
+* Print ut stemmesedler.
 
 Her er et eksempel på hvordan de kan se ut:
 Det er to varianter som er vanlig:
@@ -9,8 +10,8 @@ Det er to varianter som er vanlig:
 <img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_1.png?raw=true" align="center">
 </p>
 
-1. Alle kandidatene står skrevet på fra før i alfabetisk rekkefølge med felter foran alle kandidatene, så en kan nummerere dem.
 1. Blanke stemmesedler med tomme nummererte linjer, så kan alle skrive opp de kandidatene de vil stemme på i prioritert rekkefølge.
+1. Alle kandidatene står skrevet på fra før i alfabetisk rekkefølge med felter foran alle kandidatene, så en kan nummerere dem.
 
 ## 2. Gjennomførelsen av valget
 (Her tar jeg utgangspunktet i litt generelle regler, en har som regel lange tradisjoner og retningslinjer for hvordan valg skal gjennomføres, men må ha noe å forholde oss til i dette eksempelet.)
@@ -35,6 +36,7 @@ Det er to varianter som er vanlig:
 1. Når de er klare bretter de stemmeseddel én gang og holder den foran seg (eller andre lokale tradisjoner)
 1. Samle inn stemmesedlene.
 1. Valget er gjennomført!
+
 ## 3. Opptelling
 Okay, nå har du fått en stor bunke med stemmesedler og har lyst å bruke minst mulig tid fra du samler inn stemmesedlene til du kan annonsere resultatet for valget (dette er motivasjonen din her).
 
