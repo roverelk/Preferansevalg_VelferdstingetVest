@@ -6,6 +6,7 @@
 * [Hvem kan bruke det?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#hva-er-preferansevalg)
 * [Må jeg kunne noe for å bruke dette?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#må-jeg-kunne-noe-for-å-bruke-dette)
 * [Det tar lang tid å skrive inn alle stemmesedlene](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#det-tar-lang-tid-å-skrive-inn-alle-stemmesedlene)
+* [Finner du ikke det du lurer på?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/FAQ#finner-du-ikke-det-du-lurer-på)
 
 ## Hva er preferansevalg?
 Preferansevalg er et valgsystem hvor en kan sette opp alle kandidatene en vil stemme på i prioritert rekkefølge.
@@ -23,5 +24,5 @@ Minimalt! du må kunne åpne excel, skrive tall i det, lagre excel og klikke på
 ## Det tar lang tid å skrive inn alle stemmesedlene
 Tips: Lag excel-arket i Google Drive, så kan flere skrive inn stemmesedler samtidig. Når alle stemmene er skrevet inn kopierer du dem inn i Excel (siden det er det dette programmet leser) og lar programmet stå for å telle over stemmene.
 
-# Fikk du ikke svar?
-[Fyll ut skjema er så skal jeg svare deg](https://goo.gl/forms/LmVzq776RwhD7VB12)h
+# Finner du ikke det du lurer på?
+[Fyll ut skjema er så skal jeg svare deg](https://goo.gl/forms/LmVzq776RwhD7VB12)
