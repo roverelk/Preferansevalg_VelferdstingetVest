@@ -1,3 +1,5 @@
+[<- Tilbake til forsiden](https://github.com/roverelk/Preferansevalg_VelferdstingetVest)
+
 # FAQ
 
 * [Hvordan gjennomføre preferansevalg?](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan_gjennomfore_STV.md)

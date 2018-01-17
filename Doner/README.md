@@ -1,3 +1,6 @@
+[<- Tilbake til forsiden](https://github.com/roverelk/Preferansevalg_VelferdstingetVest)
+
+
 # Doner
 
 Liker du det jeg har laget? Gi meg en krone for arbeidet :-)
