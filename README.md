@@ -1,5 +1,12 @@
 # Preferansevalg for Velferdstinget Vest <img src="https://pbs.twimg.com/profile_images/892342855943036928/YBSKHYbA_400x400.jpg" width="200" height="200" align="right">
 
+|Last ned til:||[FAQ](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/README.md)||Doner (kommer)|
+|-------------|---|---|---|-----|
+|[Windows](https://github.com/roverelk/Preferansevalg_VelferdstingetVest/tree/master/Run%20on%20Windows)|||||
+|Mac (kommer) |||||
+
+
+
 ## Hvordan bruke
 Dette programmet tar stemmesedler lagt inn i et excel-ark og returnerer en liste over hvem som kom i hvilke plassering.
 
