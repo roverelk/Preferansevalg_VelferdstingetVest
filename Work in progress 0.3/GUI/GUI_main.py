@@ -220,37 +220,6 @@ class Window(QtGui.QMainWindow):
         iteration_number = 0
         self.output_field.setText(tekst('Button1_clicked'))
 
-        new_train_feature = []
-        new_train_label = []
-        new_test_feature = []
-        new_test_label = []
-        batch_split_percent = 0.85
-
-        class_gradient_length = 0.000001  # Change to change to
-                                          # the learningsteps
-        class_feature = []
-        class_label = []
-
-        class_print_intermidiate_values_train = False
-        class_print_intermidiate_values_test = False
-        class_print_error_rate = True
-        class_print_graph = True
-        class_new_file = False  # False = create new file
-                                # True  = load old file
-                                # with name 'file_name'
-
-        indent_gradient_length = 0.00001
-        indent_feature = []
-        indent_label = []
-
-        indent_print_intermidiate_values_train = False
-        indent_print_intermidiate_values_test = False
-        indent_print_error_rate = True
-        indent_print_graph = True
-        indent_new_file = False  # False = create new file
-                                 # True  = load old file
-                                 # with name 'file_name'
-
         # Creating buttons
         button_classification = QtGui.QPushButton("Classification")
         button_indent = QtGui.QPushButton("Indentation")
@@ -360,14 +329,6 @@ class Window(QtGui.QMainWindow):
                         class_feature.append(file)
                     # initize  classification messagebox
                     class_msgBox.exec_()
-                    if class_msgBox.clickedButton() == button_inner:
-                        class_label.append([0, 0, 1, 0])
-                    if class_msgBox.clickedButton() == button_outer:
-                        class_label.append([0, 1, 0, 0])
-                    if class_msgBox.clickedButton() == button_ball:
-                        class_label.append([0, 0, 0, 1])
-                    if class_msgBox.clickedButton() == button_base:
-                        class_label.append([1, 0, 0, 0])
 
                     if class_msgBox.clickedButton() == button_cancel:
                         self.progress.hide()
@@ -379,13 +340,12 @@ class Window(QtGui.QMainWindow):
                     add_files_msgBox.exec_()
                     if add_files_msgBox.clickedButton() == button_no:
                         continue_append = False
+
                 # show the progressbar
                 self.progress.show()
-                new_train_feature, new_train_label,\
-                new_test_feature, new_test_label, info_string = \
-                    import_csv_for_classification(class_feature,
-                                                  class_label,
-                                                  batch_split_percent)
+                new_train_feature, new_train_label, new_test_feature, new_test_label, info_string = \
+                    import_csv_for_classification(class_feature, class_label, batch_split_percent)
+
                 # Showing what parameters are being used
                 self.output_field.append(info_string)
                 # Create save file

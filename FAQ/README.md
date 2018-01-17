@@ -26,5 +26,8 @@ Minimalt! du må kunne åpne excel, skrive tall i det, lagre excel og klikke på
 ## Det tar lang tid å skrive inn alle stemmesedlene
 Tips: Lag excel-arket i Google Drive, så kan flere skrive inn stemmesedler samtidig. Når alle stemmene er skrevet inn kopierer du dem inn i Excel (siden det er det dette programmet leser) og lar programmet stå for å telle over stemmene.
 
+## Forklaring på engelsk
+[Klikk her for å se wikipedia-artikkel på tema (engelsk).](https://en.wikipedia.org/wiki/Single_transferable_vote#Simplest_Method:_Elimination_Transfers_Only)
+
 # Finner du ikke det du lurer på?
 [Fyll ut skjema er så skal jeg svare deg](https://goo.gl/forms/LmVzq776RwhD7VB12)
