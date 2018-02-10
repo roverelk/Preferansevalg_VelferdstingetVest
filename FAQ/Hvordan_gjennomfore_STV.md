@@ -9,7 +9,7 @@ Her er et eksempel på hvordan de kan se ut:
 Det er to varianter som er vanlig:
 
 <p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_1.png?raw=true">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/pic/pic_1.png?raw=true">
 </p>
 
 1. Blanke stemmesedler med tomme nummererte linjer, så kan alle skrive opp de kandidatene de vil stemme på i prioritert rekkefølge.
@@ -21,7 +21,7 @@ Det er to varianter som er vanlig:
 1. Få alle kandidatene til å stille seg opp og presentere seg.
 
 <p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_2.png?raw=true">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/pic/pic_2.png?raw=true">
 </p>
 
 3. Alle kandidatene får som regel noen minutter til å presentere seg etterfulgt av en spørsmålsrunde.
@@ -30,7 +30,7 @@ Det er to varianter som er vanlig:
 1. Om en bruker blanke stemmesedler, må en skrive navnene til alle kandidater på en tavle e.l. så enm vet hvem en kan stemme på.
 
 <p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_3.png?raw=true">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/pic/pic_3.png?raw=true">
 </p>
 
 7. Del ut stemmesedler til alle som har lov å avgi stemme.
@@ -47,7 +47,7 @@ Okay, nå har du fått en stor bunke med stemmesedler og har lyst å bruke minst
 1. Skriv inn alle stemmesedlene i en tabell (om du er usikker kan du få et eksempel av valgprogrammet).
 
 <p align="center">
-<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/Hvordan%20gjennomf%C3%B8re%20preferansevalg/pic/pic_4.png?raw=true">
+<img src="https://github.com/roverelk/Preferansevalg_VelferdstingetVest/blob/master/FAQ/pic/pic_4.png?raw=true">
 </p>
 
 4. Lagre excel-arket.
